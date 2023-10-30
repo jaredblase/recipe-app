@@ -12,7 +12,9 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest",
+		"generate": "pnpm drizzle-kit generate:mysql",
+		"push": "pnpm drizzle-kit push:mysql"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.39.0",
@@ -40,6 +42,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"dotenv-flow": "^4.0.0",
 		"drizzle-orm": "^0.28.6",
 		"mysql2": "^3.6.2"
 	}

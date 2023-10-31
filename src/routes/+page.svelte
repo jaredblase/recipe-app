@@ -1,2 +1,6 @@
-<h1 class="text-red-500">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<section class="mt-4">
+	<div class="container">
+		<p>Welcome to RecipeBook!</p>
+	</div>
+</section>
+

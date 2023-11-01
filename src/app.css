@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-	th,
-	td {
+	th {
 		@apply px-2 text-center;
+	}
+
+	input {
+		@apply block border py-1 px-2 outline-none focus:outline-gray-800 rounded-md w-full;
 	}
 
 	input[type='number'],
@@ -17,6 +20,10 @@
 	input[type='number']::-webkit-outer-spin-button {
 		-webkit-appearance: none;
 		margin: 0;
+	}
+
+	main a {
+		@apply underline
 	}
 }
 
